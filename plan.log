@@ -1,0 +1,5 @@
+-> [PPREWORK] Convert the pdf file into embeddings - store them with an index
+-> [REQUEST] For each Chat session queries, Fetch the query and the source
+->      [STEP 1] Find the similarity search for the query from the embeddings of the chosen pdf file
+->      [STEP 2] Share the similarity search results with llm instance, receive answer
+-> [RESPONSE] Share the answer as result to the chatbot query
